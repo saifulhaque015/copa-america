@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common style */
+body{
+    font-family: Poppins;
+    margin: 0%;
+}
+header{
+    background: #2D25A0;
+    width: 1349px;
+    height: 677px;
+}
+main{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    padding: 10%;
+}
+.container{
+    display: flex;
+}
+.text{
+    margin-right: 40px;
+    color: white;
+}
+h1{
+    font-size: 64px;
+}
+button{
+    background: #E02C6D;
+    color: white;
+    padding: 10px 40px;
+    font-weight: 40px;
+}
+button:hover{
+    transform: translate();
+    transition: 2s ease;
+}
+.fas{
+    margin-left: 10px;
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+}
+/* ----------------------blogs---------------- */
+.container2{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+.box{
+    width: 330px;
+    height: 550px;
+}
+.box img{
+    width: 100%;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+}
+.player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-right:2%;
+    margin-left: 6%;
+    padding: 2.5%;
+}
+/*------------ middle work------------- */
+.banner-image2 img{
+    width: 550px ;
+    height:450px ;
+}
+.box2{
+    width :50%;
+}
+.margin-up{
+    margin-top: 40px ;
+}
+.text2{
+    margin-right: 60px ;
+}
